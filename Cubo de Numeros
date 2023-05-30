@@ -1,0 +1,14 @@
+#include <stdio.h>
+int cubo(int x){
+    return x*x*x;
+}
+int main(){
+    int x;
+    
+    printf("Digite um valor: ");
+    scanf("%d",&x);
+    
+    printf("O cubo e: %d",cubo(x));
+    
+    return 0;
+}
