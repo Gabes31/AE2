@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(){
+    
+    int qntdMacas;
+    double valor;
+    
+    printf("Macas: ");
+    scanf("%d",&qntdMacas);
+    
+    if(qntdMacas <= 6){
+        valor = qntdMacas * 1.30;
+        printf("O valor total e: R$ %.2f";valor);
+    }else{
+        valor = qntdMacas;
+        printf("O valor total e: R$ %.2f",valor);
+    }
+    
+    return 0;
+}
+
+
