@@ -1,0 +1,16 @@
+#include <stdio.h>
+float divisao(int x, int y){
+    return x*1.0/y;
+}
+int main(){
+   int x, y;
+   
+   printf("Digite um numero: ");
+   scanf("%d",&x);
+   
+   printf("Digite um numero: ");
+   scanf("%d",&y);
+     
+   printf("O resultado da divisao é: %f",divisao(x,y));
+    return 0;
+}
