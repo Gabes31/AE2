@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void desenha(int qntd){
+    for(int i = 1; i <= qntd; i++){
+        printf("*");
+    }
+}
+
+int main(){
+    int qntd;
+   
+    printf("Digite a quantidade: ");
+    scanf("%d",&qntd);
+    
+    desenha(qntd);
+    
+    return 0;
+}
