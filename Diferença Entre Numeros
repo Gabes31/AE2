@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int diferença(int x, int y){
+    return x-y;
+}
+
+int main(){
+    int x, y;
+    
+    printf("Digite um numero inteiro: ");
+    scanf("%d",&x);
+    
+    printf("Digite um numero inteiro: ");
+    scanf("%d",&y);
+    
+    printf("A diferença e: %d", diferença(x,y));
+    
+    return 0;
+}
